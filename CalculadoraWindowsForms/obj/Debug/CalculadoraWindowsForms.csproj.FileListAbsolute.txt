@@ -7,3 +7,12 @@ c:\users\aluno\documents\visual studio 2015\Projects\CalculadoraWindowsForms\Cal
 c:\users\aluno\documents\visual studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.pdb
 c:\users\aluno\documents\visual studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.csprojResolveAssemblyReference.cache
 c:\users\aluno\documents\visual studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.Calculadora.resources
+C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\bin\Debug\CalculadoraWindowsForms.exe.config
+C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.exe
+C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.pdb
+C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\bin\Debug\CalculadoraWindowsForms.exe
+C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\bin\Debug\CalculadoraWindowsForms.pdb
+C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.Calculadora.resources
+C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.Properties.Resources.resources
+C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.csproj.GenerateResource.Cache
