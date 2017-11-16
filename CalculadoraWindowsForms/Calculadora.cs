@@ -184,7 +184,7 @@ namespace CalculadoraWindowsForms
         {
             if (txtBoxResult.Text != "")
             {
-                num1 = num1 + double.Parse(txtBoxResult.Text);
+                num1 = double.Parse(txtBoxResult.Text);
                 txtBoxResult.Text = "";
                 operacao = "+";
                 virgula = 0;
@@ -195,7 +195,7 @@ namespace CalculadoraWindowsForms
         {
             if (txtBoxResult.Text != "")
             {
-                num1 = num1 - double.Parse(txtBoxResult.Text);
+                num1 = double.Parse(txtBoxResult.Text);
                 txtBoxResult.Text = "";
                 operacao = "-";
                 virgula = 0;
@@ -206,7 +206,7 @@ namespace CalculadoraWindowsForms
         {
             if (txtBoxResult.Text != "")
             {
-                num1 = num1 / double.Parse(txtBoxResult.Text);
+                num1 = double.Parse(txtBoxResult.Text);
                 txtBoxResult.Text = "";
                 operacao = "/";
                 virgula = 0;
@@ -217,7 +217,7 @@ namespace CalculadoraWindowsForms
         {
             if (txtBoxResult.Text != "")
             {
-                num1 = num1 * double.Parse(txtBoxResult.Text);
+                num1 = double.Parse(txtBoxResult.Text);
                 txtBoxResult.Text = "";
                 operacao = "*";
                 virgula = 0;
@@ -256,6 +256,7 @@ namespace CalculadoraWindowsForms
         private void btnClear_Click(object sender, EventArgs e)
         {
             num1 = 0;
+            num2 = 0;
             resultado = 0;
             virgula = 0;
             txtBoxResult.Text = num1.ToString();
@@ -426,7 +427,7 @@ namespace CalculadoraWindowsForms
             {
                 if (txtBoxResult.Text != "")
                 {
-                    num1 = num1 + double.Parse(txtBoxResult.Text);
+                    num1 = double.Parse(txtBoxResult.Text);
                     txtBoxResult.Text = "";
                     operacao = "+";
                     virgula = 0;
@@ -436,7 +437,7 @@ namespace CalculadoraWindowsForms
             {
                 if (txtBoxResult.Text != "")
                 {
-                    num1 = num1 - double.Parse(txtBoxResult.Text);
+                    num1 = double.Parse(txtBoxResult.Text);
                     txtBoxResult.Text = "";
                     operacao = "-";
                     virgula = 0;
@@ -446,7 +447,7 @@ namespace CalculadoraWindowsForms
             {
                 if (txtBoxResult.Text != "")
                 {
-                    num1 = num1 / double.Parse(txtBoxResult.Text);
+                    num1 = double.Parse(txtBoxResult.Text);
                     txtBoxResult.Text = "";
                     operacao = "/";
                     virgula = 0;
@@ -456,7 +457,7 @@ namespace CalculadoraWindowsForms
             {
                 if (txtBoxResult.Text != "")
                 {
-                    num1 = num1 * double.Parse(txtBoxResult.Text);
+                    num1 = double.Parse(txtBoxResult.Text);
                     txtBoxResult.Text = "";
                     operacao = "*";
                     virgula = 0;
