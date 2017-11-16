@@ -12,7 +12,7 @@ namespace CalculadoraWindowsForms
 {
     public partial class Calculadora : Form
     {
-        double num1 = 0, num2 = 0, resultado = 0;
+        double num1 = 0, resultado = 0;
         int virgula = 0;
         string operacao;
 
@@ -170,7 +170,8 @@ namespace CalculadoraWindowsForms
                 }
             }
         }
-
+        
+        //Condição para virgula com contador, caso for 0 insere a virgula, caso contrário não insere e impede o usuário inserir várias virgulas
         private void btnVirgula_Click(object sender, EventArgs e)
         {
             if (virgula == 0)
@@ -180,6 +181,7 @@ namespace CalculadoraWindowsForms
             }
         }
 
+        //Condição de soma
         private void btnSoma_Click(object sender, EventArgs e)
         {
             if (txtBoxResult.Text != "")
@@ -191,6 +193,7 @@ namespace CalculadoraWindowsForms
             }
         }
 
+        //Condição de subtração
         private void btnSub_Click(object sender, EventArgs e)
         {
             if (txtBoxResult.Text != "")
@@ -202,6 +205,7 @@ namespace CalculadoraWindowsForms
             }
         }
 
+        //Condição de divisão
         private void btnDiv_Click(object sender, EventArgs e)
         {
             if (txtBoxResult.Text != "")
@@ -213,6 +217,7 @@ namespace CalculadoraWindowsForms
             }
         }
 
+        //Condição de multiplicação
         private void btnMult_Click(object sender, EventArgs e)
         {
             if (txtBoxResult.Text != "")
@@ -224,6 +229,7 @@ namespace CalculadoraWindowsForms
             }
         }
 
+        //Condição do igual para realizar o cálculo final
         private void btnIgual_Click(object sender, EventArgs e)
         {
             if (operacao == "+")
@@ -253,15 +259,16 @@ namespace CalculadoraWindowsForms
 
         }
 
+        //Condição de clear para limpar tudo
         private void btnClear_Click(object sender, EventArgs e)
         {
             num1 = 0;
-            num2 = 0;
             resultado = 0;
             virgula = 0;
             txtBoxResult.Text = num1.ToString();
         }
 
+        //Condição de apagar o que o usuário digitou sem apagar o número ou soma anterior
         private void btnCancelEntry_Click(object sender, EventArgs e)
         {
             txtBoxResult.Text = "0";
@@ -281,6 +288,7 @@ namespace CalculadoraWindowsForms
             }
         }
         
+        //KeyDown do text bot p/ inserir dados pelo teclado
         private void txtBoxResult_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.D0 || e.KeyCode == Keys.NumPad0)
@@ -490,6 +498,7 @@ namespace CalculadoraWindowsForms
             {
                 int x;
 
+            //Condição para apagar, caso tenha mais de 1 caractere ele apaga, caso for o último substitui por 0
             if (txtBoxResult.Text.Length > 1)
             {
                 txtBoxResult.Text = txtBoxResult.Text.Remove(txtBoxResult.Text.Length - 1);
