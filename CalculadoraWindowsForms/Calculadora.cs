@@ -234,23 +234,53 @@ namespace CalculadoraWindowsForms
         {
             if (operacao == "+")
             {
-                resultado = num1 + double.Parse(txtBoxResult.Text);
-                txtBoxResult.Text = resultado.ToString();
+                //Condição que estava bugando
+                if (txtBoxResult.Text == "")
+                {
+
+                }else
+                {
+                    resultado = num1 + double.Parse(txtBoxResult.Text);
+                    txtBoxResult.Text = resultado.ToString();
+                }
             }
             if (operacao == "-")
             {
-                resultado = num1 - double.Parse(txtBoxResult.Text);
-                txtBoxResult.Text = resultado.ToString();
+                //Condição que estava bugando
+                if (txtBoxResult.Text == "")
+                {
+
+                }
+                else
+                {
+                    resultado = num1 - double.Parse(txtBoxResult.Text);
+                    txtBoxResult.Text = resultado.ToString();
+                }
             }
             if (operacao == "/")
             {
-                resultado = num1 / double.Parse(txtBoxResult.Text);
-                txtBoxResult.Text = resultado.ToString();
+                //Condição que estava bugando
+                if (txtBoxResult.Text == "")
+                {
+
+                }
+                else
+                {
+                    resultado = num1 / double.Parse(txtBoxResult.Text);
+                    txtBoxResult.Text = resultado.ToString();
+                }
             }
             if (operacao == "*")
-            {
-                resultado = num1 * double.Parse(txtBoxResult.Text);
-                txtBoxResult.Text = resultado.ToString();
+            {//Condição que estava bugando
+                if (txtBoxResult.Text == "")
+                {
+
+                }
+                else
+                {
+                    resultado = num1 * double.Parse(txtBoxResult.Text);
+                    txtBoxResult.Text = resultado.ToString();
+                }
             }
         }
 
@@ -475,23 +505,55 @@ namespace CalculadoraWindowsForms
             {
                 if (operacao == "+")
                 {
-                    resultado = num1 + double.Parse(txtBoxResult.Text);
-                    txtBoxResult.Text = resultado.ToString();
+                    //Condição que estava bugando
+                    if (txtBoxResult.Text == "")
+                    {
+
+                    }
+                    else
+                    {
+                        resultado = num1 + double.Parse(txtBoxResult.Text);
+                        txtBoxResult.Text = resultado.ToString();
+                    }
                 }
                 if (operacao == "-")
                 {
-                    resultado = num1 - double.Parse(txtBoxResult.Text);
-                    txtBoxResult.Text = resultado.ToString();
+                    //Condição que estava bugando
+                    if (txtBoxResult.Text == "")
+                    {
+
+                    }
+                    else
+                    {
+                        resultado = num1 - double.Parse(txtBoxResult.Text);
+                        txtBoxResult.Text = resultado.ToString();
+                    }
                 }
                 if (operacao == "/")
                 {
-                    resultado = num1 / double.Parse(txtBoxResult.Text);
-                    txtBoxResult.Text = resultado.ToString();
+                    //Condição que estava bugando
+                    if (txtBoxResult.Text == "")
+                    {
+
+                    }
+                    else
+                    {
+                        resultado = num1 / double.Parse(txtBoxResult.Text);
+                        txtBoxResult.Text = resultado.ToString();
+                    }
                 }
                 if (operacao == "*")
                 {
-                    resultado = num1 * double.Parse(txtBoxResult.Text);
-                    txtBoxResult.Text = resultado.ToString();
+                    //Condição que estava bugando
+                    if (txtBoxResult.Text == "")
+                    {
+
+                    }
+                    else
+                    {
+                        resultado = num1 * double.Parse(txtBoxResult.Text);
+                        txtBoxResult.Text = resultado.ToString();
+                    }
                 }
             }
             if (e.KeyCode == Keys.Back)
