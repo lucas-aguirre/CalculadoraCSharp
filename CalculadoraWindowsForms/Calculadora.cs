@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+//Adicionei coisa nova
+
 namespace CalculadoraWindowsForms
 {
     public partial class Calculadora : Form

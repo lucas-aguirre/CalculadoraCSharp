@@ -16,3 +16,6 @@ C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\Cal
 C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.Calculadora.resources
 C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.Properties.Resources.resources
 C:\Users\Lucas\Documents\Visual Studio 2015\Projects\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Aluno\Source\Repos\CalculadoraWindowsForms\CalculadoraWindowsForms\bin\Debug\CalculadoraWindowsForms.exe.config
+C:\Users\Aluno\Source\Repos\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.exe
+C:\Users\Aluno\Source\Repos\CalculadoraWindowsForms\CalculadoraWindowsForms\obj\Debug\CalculadoraWindowsForms.pdb
